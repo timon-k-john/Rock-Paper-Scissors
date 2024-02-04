@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(25, 25, 25);
+    color: white;
+    font-family: Arial;
+
+}
+.title{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.move-icon{
+    height: 50px;
+}
+.move-button{
+    background-color: rgb(48,48,48);
+    border: none;
+    width: 85px;
+    height: 85px;
+    margin-right: 15px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.reset{
+    background-color: rgb(48,48,48);
+    color: white;
+    border: none;
+    margin-left: 15px;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.result{
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 20px;
+    
+}
+.moves{
+    height: 150px;
+    margin-bottom: 10px;
+}
+.user{
+    height: 55px;
+    margin-left: 50px;
+}
+.comp{
+    margin-left: 10px;
+}
+.scoreboard{
+    background-color: rgb(48,48,48);
+    width: 90px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    margin-left: 15px;
+}

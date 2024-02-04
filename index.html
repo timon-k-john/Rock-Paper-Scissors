@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Functions
+        </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <p class="title">
+            Rock Paper Scissors
+        </p>
+
+        <button onclick="check('rock')" class="move-button">
+            <img src="assets/rock-emoji.png" class="move-icon">
+        </button>
+
+        <button onclick="check('paper')" class="move-button">
+            <img src="assets/paper-emoji.png" class="move-icon">
+        </button>
+
+        <button onclick="check('scissors')" class="move-button">
+            <img src="assets/scissors-emoji.png" class="move-icon">
+        </button>
+
+        <p class="js-result result">. . .</p>
+        <div class="moves">
+            <p class="js-user-move user">
+                You : <img src="assets/blank.png" class="move-icon">
+            </p>
+            <p class="js-comp-move comp">
+                Computer : <img src="assets/blank.png" class="move-icon">
+            </p>
+        </div>
+        
+        <div class="scoreboard">
+            <p class="js-win"></p>
+            <p class="js-lose"></p>
+            <p class="js-draw"></p>
+        </div>
+
+        <button onclick="
+            score.player = 0;
+            score.computer = 0;
+            score.tie = 0;
+            localStorage.removeItem('score');
+            resetmoves();
+            updatescore();
+        " class="reset">
+            Reset Score
+        </button>
+
+       <script src="script.js"></script>
+    </body>
+</html>
